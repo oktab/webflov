@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.item {
+    color: rgb(255, 255, 255);
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    transition: 0.5s;
+}
+
+.item:hover {
+    color: #a8ff35;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header__btn1 {
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+    border-radius: 40px;
+    color: white;
+    font-family: "Effra";
+    font-size: 18px;
+    line-height: 100%;
+    padding: 10px 40px;
+}
+
+.header__btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero {
+    background-color: black;
+}
+
+.hero__h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Effra";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 112%;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.hero__p {
+    color: rgb(139, 139, 139);
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.hero__images {
+    justify-content: center;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero__btn {
+    padding: 20px 45px;
+    border-radius: 40px;
+    background: rgb(168, 255, 53);
+    color: rgb(0, 0, 0);
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+}
+
+.hero__big__img {
+    padding-top: 95px;
+    padding-bottom: 91px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.body__start {
+    background-color: rgb(168, 255, 53);
+}
+
+.body__start__h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Effra";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.body__start__card {
+    width: 502px;
+    height: 202px;
+    background-color: white;
+    padding: 60px 80px;
+}
+
+.body__start__btn {
+    width: 341px;
+    height: 82px;
+    background: #030303;
+    border: none;
+}
+
+.btn__img {
+    align-items: center;
+    padding: 25px 23px;
+}
+
+.body__start__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 25px;
+}
+
+.body__title {
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 140px;
+    color: #000000;
+    font-family: "Effra";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.body__start__p {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+
+.body__h1 {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+    padding-top: 280px;
+    text-align: center;
+}
+
+.boxses {
+    padding-top: 80px;
+}
+
+.boxs {
+    display: flex;
+    gap: 32px;
+    padding-top: 32px;
+    justify-content: center;
+}
+
+.box {
+    width: 266px;
+    padding: 40px 38px;
+    border-radius: 8px;
+    background: rgb(245, 245, 245);
+}
+
+.musk__h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Effra";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.vectors {
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.vector1 {
+    width: 124px;
+    height: 124px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 32px 32px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.vector1:hover {
+    background-color: #a8ff35;
+}
+
+.news {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 77px;
+}
+
+.img_1 {
+    padding-top: 42px;
+}
+
+.img_1 {
+    padding-top: 42px;
+}
+
+.musk__wrapper {
+    padding-bottom: 140px;
+}
+
+.musk__btn {
+    width: 198px;
+    height: 57px;
+    border-radius: 40px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.body__end {
+    background-color: #000000;
+}
+
+.end__h1 {
+    color: #ffffff;
+    font-family: "Effra";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.end__h4 {
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.end__hh4 {
+    color: rgb(245, 245, 245);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    opacity: 0.5;
+}
+
+.end__titles {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.card__h1 {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 100%;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.card__p {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+
+.end__cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    width: 360px;
+    height: 640px;
+    border-radius: 16px;
+    background: #fafafa;
+    transition: 0.5s ease-in-out;
+    margin-top: 40px;
+}
+
+.card__img {
+    padding-top: 64px;
+    padding-left: 32px;
+}
+
+.line {
+    position: relative;
+    width: 296px;
+    border: 1px solid #000000;
+    opacity: 0.2;
+    top: 32px;
+    margin: 0 auto;
+}
+
+.pi {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 18px;
+    line-height: 100%;
+    padding-left: 32px;
+    padding-top: 30px;
+}
+
+.end__cards {
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.card1__btn {
+    padding: 17px 89px;
+    border-radius: 29px;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 180px;
+}
+
+.card2__btn {
+    padding: 17px 89px;
+    border-radius: 29px;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+    margin-top: 135px;
+}
+
+.card3__btn {
+    padding: 17px 89px;
+    border-radius: 29px;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+    margin-top: 40px;
+}
+
+.cardd {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.card:hover {
+    background-color: #a8ff35;
+}
+
+.lag {
+    background: #a8ff35;
+}
+
+.lag__h1 {
+    color: #87d322;
+    font-family: "Effra";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 112%;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+
+.lag__h1:hover {
+    color: #000000;
+}
+
+.lagg {
+    padding-top: 140px;
+}
+
+.lag__btn {
+    padding: 10px 45px;
+    border-radius: 40px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Effra";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+}
+
+.but {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__item {
+    color: #000000;
+    font-family: "Effra";
+    font-size: 18px;
+    line-height: 100%;
+}
+.footer{
+    padding: 37px 0px;
+}
